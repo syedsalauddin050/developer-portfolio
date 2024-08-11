@@ -67,6 +67,10 @@ nav a{
     margin-top: 5px;
     margin-bottom: 20px;
 }
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 .banner-description{
     margin-bottom: 30px;
 }
@@ -87,4 +91,11 @@ nav a{
     color:  #757575;
     text-align: center;
     font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
