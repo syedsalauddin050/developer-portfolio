@@ -156,7 +156,7 @@ main section {
 }
 
 .resume-item-title {
-    color:  #474747;
+    color: #474747;
     font-size: 25px;
     font-weight: 700;
 }
@@ -165,16 +165,40 @@ main section {
 .resume-item-description {
     color: #757575;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
-footer{
-    display: flex ;
-    background-color:  #FFF8F3;
+
+footer {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
+}
+
+.fotter-column {
+    width: 50%;
+}
+.social-links a{
+    margin-left: 25px;
+}
+
+.contact input[type="text"], .contact input[type="Email"], .contact input[type="your name"],
+textarea {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    width: 100%;
 }
